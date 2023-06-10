@@ -34,5 +34,3 @@ jobs:
           allow_empty_commit: false
           build_dir: dist
           commit_message: "Auto publish from commit ${{ steps.short-sha.outputs.sha }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.BILI_AWSL }}
