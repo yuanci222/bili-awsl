@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name       bili-awsl
-// @namespace  vite-plugin-monkey
-// @version    0.0.1
-// @author     yuanci222
-// @match      https://www.bilibili.com/*
-// @grant      GM.getValue
-// @grant      GM.setValue
+// @name         bili-awsl
+// @namespace    vite-plugin-monkey
+// @version      1.0.0
+// @author       yuanci222
+// @description  Auto AWSLing for Bilibili
+// @match        https://www.bilibili.com/*
+// @grant        GM.getValue
+// @grant        GM.setValue
 // ==/UserScript==
 
 (function () {
