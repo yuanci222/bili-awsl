@@ -9,7 +9,7 @@ Modified based on [AWSL](https://github.com/xingrz/awsl) of [xingrz](https://git
 - Enter wide-mode automatically
 - Remove the top tips about detecting browser extensions
 
-![](screenshot.png)
+![](Screenshot.png)
 
 ## Usage
 

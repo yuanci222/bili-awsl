@@ -9,7 +9,7 @@
 - 自动进入宽屏模式
 - 去掉顶部检测浏览器插件的提示
 
-![](screenshot.png)
+![](Screenshot.png)
 
 ## 使用
 
