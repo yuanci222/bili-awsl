@@ -8,6 +8,7 @@ Modified based on [AWSL](https://github.com/xingrz/awsl) of [xingrz](https://git
 - Customize barrage phrases
 - Enter wide-mode automatically
 - Remove the top tips about detecting browser extensions
+- Replace 'Download client' button with 'Cinema' button on the top
 
 ![](Screenshot.png)
 

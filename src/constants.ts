@@ -1,4 +1,4 @@
-type Selectors = 'player' | 'toolbar' | 'sharePanel' | 'wideModeButton' | 'wideModeButtonActivated' | 'barrageSendButton' | 'barrageInput' | 'barrageSendingArea' | 'adBlockTip'
+type Selectors = 'player' | 'toolbar' | 'sharePanel' | 'wideModeButton' | 'wideModeButtonActivated' | 'barrageSendButton' | 'barrageInput' | 'barrageSendingArea' | 'adBlockTip' | 'avatar' | 'leftEntry'
 
 export const BiliSelectors: Record<Selectors, string> = {
   player: '#bilibili-player',
@@ -10,5 +10,7 @@ export const BiliSelectors: Record<Selectors, string> = {
   barrageSendButton: '.bpx-player-dm-btn-send',
   barrageSendingArea: '.bpx-player-sending-area',
   adBlockTip: '.adblock-tips',
+  avatar: '.header-entry-mini',
+  leftEntry: '.left-entry'
 }
 
