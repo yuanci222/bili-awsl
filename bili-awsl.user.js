@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bili-awsl
 // @namespace    vite-plugin-monkey
-// @version      1.0.3
+// @version      1.0.4
 // @author       yuanci222
 // @description  Auto AWSLing for Bilibili
 // @match        https://www.bilibili.com/*
