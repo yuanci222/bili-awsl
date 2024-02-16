@@ -13,7 +13,6 @@ export default defineConfig({
         match: ['https://www.bilibili.com/*'],
         icon: undefined,
       },
-      server: { mountGmApi: true },
     }),
   ],
 });
