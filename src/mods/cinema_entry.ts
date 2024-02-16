@@ -8,8 +8,10 @@ observe(document.body, () => {
     return
   }
 
-  // remove "download" button
-  leftEntry.removeChild(leftEntry.lastChild!)
+  if(leftEntry.lastChild) {
+    // remove "download" button
+    leftEntry.removeChild(leftEntry.lastChild)
+  }
 
   const avatar = $(document, BiliSelectors.avatar)
   if(!avatar || avatar.tagName.toUpperCase() !== 'A') return
