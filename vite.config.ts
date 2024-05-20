@@ -10,7 +10,7 @@ export default defineConfig({
       entry: 'src/main.ts',
       userscript: {
         author: 'yuanci222',
-        match: ['https://www.bilibili.com/*'],
+        match: ['https://*.bilibili.com/*'],
         icon: undefined,
       },
     }),

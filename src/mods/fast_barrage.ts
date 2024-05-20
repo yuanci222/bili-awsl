@@ -107,7 +107,8 @@ const createConfigButton = () => {
   });
 
   on(button, 'click', async () => {
-    const words = window.prompt('输入多个短语，以「;」分隔\nEnter multiple phrases, separated by ";"')
+    const defaultValue = await GM.getValue('words', '')
+    const words = window.prompt('输入多个短语，以 ; 分隔\nEnter multiple phrases, separated by ";"', defaultValue)
     if(words && words.trim() !== '') {
       await GM.setValue('words', words)
       // TODO: more insensitive way

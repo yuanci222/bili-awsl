@@ -8,10 +8,11 @@ observe(document.body, () => {
     return
   }
 
-  if(leftEntry.lastChild) {
+  if(leftEntry.lastElementChild?.querySelector(BiliSelectors.downloadClientTrigger)) {
     // remove "download" button
-    leftEntry.removeChild(leftEntry.lastChild)
+    leftEntry.removeChild(leftEntry.lastElementChild)
   }
+  
 
   const avatar = $(document, BiliSelectors.avatar)
   if(!avatar || avatar.tagName.toUpperCase() !== 'A') return
