@@ -12,6 +12,7 @@ export default defineConfig({
         author: 'yuanci222',
         match: ['https://*.bilibili.com/*'],
         icon: undefined,
+        grant: 'GM.getValue'
       },
     }),
   ],
